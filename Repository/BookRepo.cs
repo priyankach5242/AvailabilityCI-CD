@@ -15,6 +15,9 @@ namespace AvailabilityAPI.Repository
             new BookModel { Id=2 , Name = "Harry Potter and the Chamber of secrets",Price = 349,Description="2nd book of Harry Potter" },
             new BookModel { Id=3 , Name = "Harry Potter and the Prisoner of Azkaban",Price = 301,Description="3rd book of Harry Potter" },
             new BookModel { Id=4 , Name = "Harry Potter and the Goblet of Fire",Price = 359,Description="4th book of Harry Potter" },
+            new BookModel { Id=5 , Name = "Harry Potter and the Order of Phoenix",Price = 517,Description="5th book of Harry Potter" },
+            new BookModel { Id=6 , Name = "Harry Potter and the Half Blood Prince",Price = 573,Description="6th book of Harry Potter" },
+            new BookModel { Id=7 , Name = "Harry Potter and the Deathly Hallows",Price = 363,Description="7th book of Harry Potter" },
         };
 
         public List<BookModel> GetBookList()
